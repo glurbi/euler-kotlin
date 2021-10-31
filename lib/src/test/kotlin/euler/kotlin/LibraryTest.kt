@@ -8,7 +8,7 @@ import kotlin.test.assertTrue
 
 class LibraryTest {
     @Test fun someLibraryMethodReturnsTrue() {
-        val classUnderTest = Library()
+        val classUnderTest = Euler39()
         assertTrue(classUnderTest.someLibraryMethod(), "someLibraryMethod should return 'true'")
     }
 }
